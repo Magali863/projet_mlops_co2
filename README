@@ -1,0 +1,8 @@
+# Mon Projet MLOps
+Ce projet implémente une pipeline MLOps avec DVC et Dagshub.
+
+## Structure
+- `data/raw/` : Données brutes
+- `data/processed/` : Données traitées
+- `src/model/` : Modèles ML
+- `src/scripts/` : Scripts de traitement
