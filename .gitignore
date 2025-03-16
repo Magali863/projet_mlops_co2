@@ -1,5 +1,15 @@
 # Ignorer les données brutes et fichiers temporaires
+
+# Ignorer tous les fichiers dans data/raw/
 data/raw/*
+# Mais ne pas ignorer les fichiers .dvc dans data/raw/
+!data/raw/*.dvc
+
+# Ignorer tous les fichiers dans data/processed/
 data/processed/*
+# Mais ne pas ignorer les fichiers .dvc dans data/processed/
+!data/processed/*.dvc
+
+# Autres ignores courants
 *.pyc
 __pycache__/
