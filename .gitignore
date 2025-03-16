@@ -1,0 +1,5 @@
+# Ignorer les données brutes et fichiers temporaires
+data/raw/*
+data/processed/*
+*.pyc
+__pycache__/
