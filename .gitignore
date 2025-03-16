@@ -4,11 +4,15 @@
 data/raw/*
 # Mais ne pas ignorer les fichiers .dvc dans data/raw/
 !data/raw/*.dvc
+# Ne pas ignorer .gitkeep dans data/raw/
+!data/raw/.gitkeep
 
 # Ignorer tous les fichiers dans data/processed/
 data/processed/*
 # Mais ne pas ignorer les fichiers .dvc dans data/processed/
 !data/processed/*.dvc
+# Ne pas ignorer .gitkeep dans data/processed/
+!data/processed/.gitkeep
 
 # Autres ignores courants
 *.pyc
